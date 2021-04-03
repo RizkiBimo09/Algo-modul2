@@ -18,7 +18,7 @@ public class PerkalianMatriks_3 {
         for(int i=0; i<R.length; i++) { 
           for(int j=0; j<B[0].length; j++) {
              for(int k=0; k<R[0].length; k++) {
-                W[i][j] = W[i][j] + (R[i][k] * B[k][j]); 
+                W[i][j] += R[i][k]*B[k][j]; 
              } 
           }  
         }
@@ -28,6 +28,8 @@ public class PerkalianMatriks_3 {
           }  
           System.out.println();
         }
+    }
+        else{
         System.out.println("Rizki Bimo Wijaya");
     }
    

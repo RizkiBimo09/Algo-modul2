@@ -5,7 +5,7 @@ public class TransposeMatriks_4 {
             {2,1,-5},
             {3,4,2}
         };
-        int[][] transpose = new int[7][7];
+        int[][] transpose = new int[3][2];
         for (int i=0; i < W.length; i++){
             for (int j=0; j< W [0].length; j++){
                 transpose[j][i] = W [i][j];
